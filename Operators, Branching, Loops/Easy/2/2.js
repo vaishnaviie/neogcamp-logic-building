@@ -4,6 +4,7 @@ const userNumber=document.querySelector("#num");
 
 const inputHandler=()=>{
     if(Number(userNumber.value)%2===0){
+        console.log(Number(userNumber.value));
         console.log("Even number");
     }
     else{
